@@ -1,5 +1,10 @@
 package com.marty
 
+import com.marty.bestdivisor.Solution
+
 fun main() {
-    println("answer is ${com.marty.slowestkey.Solution().findSlowestKey()}")
+    val solution = Solution()
+    solution.bestDivisor(12).apply {
+        println(this)
+    }
 }
